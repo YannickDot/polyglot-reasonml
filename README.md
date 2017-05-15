@@ -8,6 +8,7 @@ I simplified @chenglou's [example repo](https://github.com/chenglou/reason-react
 It lowers the barrier at least for me, hope it's helpful for others too.
 
 **One of the main goals of Reason is to make the tooling simple enough to not need such a tool.**
+
 This is a work in progress towards it.
 
 For now this is more like a quick start to React Reason than a "create-reason-react-app", but the latter is the end goal of this project.
