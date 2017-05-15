@@ -9,6 +9,7 @@ module App = {
     Js.log "clicked!";
     None
   };
+
   /* {props, state, updater, handler, instanceVars, setState} */
   let styling = ReactDOMRe.Style.make
     padding::"30px"

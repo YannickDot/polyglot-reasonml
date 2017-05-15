@@ -2,6 +2,7 @@
   BuckleScript comes with a JSON parser that supports comments and trailing
   comma. If this screws with your editor highlighting, please tell us by filing
   an issue! */
+
 {
   "name": "create-reason-react-app",
   "reason": {
@@ -9,12 +10,25 @@
   },
   "bs-dependencies": [
     "reason-react",
-    "bs-director",
-    "bs-fetch"
+    "bs-fetch",
+    "bs-director"
   ],
+  "bs-dev-dependencies": [
+    "bs-jest",
+    "bs-react-test-renderer"
+  ],
+  "js-post-build": {
+    "cmd": "./scripts/copy.js"
+  },
   "sources": [
     {
-      "dir": "src"
+      "dir": "src",
+      "subdirs": [
+        {
+          "dir": "__tests__",
+          "type": "dev"
+        }
+      ]
     }
   ]
 }
