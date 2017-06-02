@@ -18,7 +18,7 @@
     "test": "npm-run-all build:bsb jest"
   },
   "keywords": [],
-  "author": "Mateusz Zatorski",
+  "author": "Yannick Spark",
   "license": "MIT",
   "dependencies": {
     "bs-director": "^0.0.1",
