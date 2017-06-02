@@ -28,8 +28,18 @@
     "reason-react": "https://github.com/reasonml/reason-react.git"
   },
   "devDependencies": {
+    "bs-jest": "^0.1.0",
     "bs-platform": "^1.7.3",
+    "bs-react-test-renderer": "^1.0.0",
+    "jest": "^20.0.4",
+    "npm-run-all": "^4.0.2",
+    "rimraf": "^2.6.1",
     "webpack": "^2.5.1",
     "webpack-dev-server": "2"
+  },
+  "jest": {
+    "roots": [
+      "src"
+    ]
   }
 }
